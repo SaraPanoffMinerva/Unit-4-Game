@@ -6,28 +6,73 @@
     <title>Puddle Jumper Game</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xbm2mmi.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
     
   </head>
   
   <body>
+      <body class="body">
+
     <div class="header">
-      <h1>Puddle Jumper Game</h1>
+        <h1 class="display-4">Welcome to the Puddle Jumper Game</h1>
     </div>
     <div class="rules">
-      <h3>Rules of the Game</h3>
+      <h3 class="h3">Puddle Jumper Rules!!</h3>
           <ul>
-            <li>You will be given a random number at the start of the game.</li>
-            <li> There are four Puddle Jumper Cards. By clicking on a card you will add amounts to your score.</li>
-            <li> To win the game your total score must match the random number given.</li>
-            <li> Each card's value will be hidden until you click on it</li>
-            <li> Each time the game starts, the cards values will change</li>
+            <ol class="ol">1. You will be given a random number at the start of the game.</ol>
+            <ol class="ol"> 2. There are four Puddle Jumper Cards. By clicking on a card you will add amounts to your score.</ol>
+            <ol class="ol"> 3. To win the game your total score must match the random number given.</ol>
+            <ol class="ol"> 4. Each card's value will be hidden until you click on it.</ol>
+            <ol class="ol"> 5. Each time the game starts, the cards values will change.</ol>
           </ul>
     </div>
     
-    <p><button class="styled">Start Game</button></p>
-    
+    <p><button class="styled">Start Game by Clicking Frogs Cards Below</button></p>
+
+    <div class="numberToMatch">
+        <h2>Number To Match:
+          <p id="randomNumber"></p>
+        </h2>
+      </div>
+      <div class="winsAndLosses">
+        <h2>Wins:
+          <p id= "Wins"></p>
+          <br>
+          Loses: 
+          <p id= "numberLosses"></p>
+        <br>
+        </h2>
+      </div>
+     <div class="userTotal">
+        <h2>Your Final Total is:
+          <span id="finalTotal"></span>
+        </h2>
+      </div>
+      
     <div class="cards">
-      <img src="images/crystal-game.png" class=cardImage id"one" alt="PuddleJump">
-    </div>  
+      <div class="card1">
+      <img src="assets/images/crystal-game.png" id="num1" alt="PuddleJump" width="300px" height="350px">
+      </div>
+      <img src="assets/images/crystal-game.png" id="num2" alt="PuddleJump" width="300px" height="350px">
+      <img src="assets/images/crystal-game.png" id="num3" alt="PuddleJump" width="300px" height="350px">
+      <img src="assets/images/crystal-game.png" id="num4" alt="PuddleJump" width="300px" height="350px">
+      </div>
+    </div>
+
+   
+
+    
+    <footer class = "footer">
+        <h4>Sara Minerva 2018</h4>
+    </footer>
+
+    
+        <embed name="myMusic" autostart="true" loop="true" hidden="true" src="assets/Frog Croaking-SoundBible.com-1771575703.mp3">
+
+          <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+          <script type="text/javascript" src="assets/javascript/game.js"></script>
+      
   </body>
 </html>
