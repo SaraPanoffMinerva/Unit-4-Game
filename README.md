@@ -1,4 +1,4 @@
-# Unit-4-Game
+# Puddle Jumper Game
 
 Crystals Collector Game
 This is a guessing game using numbers where the player will guess with numbers.
